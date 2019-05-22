@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: auto;
+  font-family: 'Montserrat';
+}
+
+body{
+
+}
+
+
+.intro {
+
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.intro a{
+  color: black;
+  text-decoration: none;
+  margin: 25px;
+  font-size: 50px;
+  ;
+}
+
+.me{
+  width: auto;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.navbar {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  flex: 25%;
+  }
+
+.navbar a:hover{
+  color: red;
+}
+
+.content{
+  width: 80vw;
+  text-align: center;
+  font-size: 50px;
+}
+
+.content h1{
+    padding: 150px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+  display: flex;
+  }
+
+.column {
+  text-align: left;
+  flex: 35%;
+  padding: 10px;
+
+  }
+
+.row2 {
+  padding-top: 100px;
+  display: flex;
+  }
+
+.column2{
+  flex: 50%;
+  padding: 10px;
+  height: 150px;
+
+  }
+
+.Work{
+    text-align: justify;
+    padding-left: 25px;
+    margin-top: 25px;
+    border-left: 5px solid black;
+  }
+
+
+
+
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: #F09A9D; /* Red */
+    }
+
+    .row{
+      flex-direction: column;
+    }
+  }
