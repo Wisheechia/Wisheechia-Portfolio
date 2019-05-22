@@ -103,7 +103,7 @@ img {
   /* Mobile Styles */
   @media only screen and (max-width: 768px) {
     body {
-      background-color: #F09A9D; /* Red */
+      background-color: red; /* Red */
     }
 
     .row{
