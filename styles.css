@@ -105,7 +105,6 @@ img {
 
 
 .Work{
-
     padding-left: 25px;
     margin-top: 25px;
     border-left: 5px solid black;
@@ -147,6 +146,7 @@ img {
 
     .column{
       padding-top: 75px;
+      width: 100%;
     }
 
     .navbar {
