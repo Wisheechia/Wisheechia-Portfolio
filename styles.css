@@ -160,7 +160,7 @@ img {
     .dropbtn{
       display: block;
       background-color: black;
-      color:  white;
+      color:  #00ff00;
       border: none;
       height: 50px;
       width: 150px;
@@ -180,14 +180,17 @@ img {
 }
 
 .dropdown a {
-  color: black;
+  border: 2px solid #00ff00;
+  color: #00ff00;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 
-.navbar:hover .dropdown {display: block;}
+.navbar:hover .dropdown {
+  display: block;
+}
 
 
 }
